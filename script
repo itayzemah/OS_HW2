@@ -1,0 +1,32 @@
+make
+for (( i = 0 ; i < 2 ; i++))
+{
+echo "v1----------------------------------------------"
+
+./v1 demo.txt
+./v1 demo2.txt
+./v1 demo3.txt
+./v1 demo4.txt
+./v1 demo5.txt
+./v1 f1
+./v1 wrong1
+./v1 wrong2
+./v1 wrong3
+./v1 wrong4.txt
+./v1 wrong5.txt
+
+
+echo "v2----------------------------------------------"
+./v2 demo.txt
+./v2 demo2.txt
+./v2 demo3.txt
+./v2 demo4.txt
+./v2 demo5.txt
+./v2 f1
+./v2 wrong1
+./v2 wrong2
+./v2 wrong3
+./v2 wrong4.txt
+./v2 wrong5.txt
+
+}
